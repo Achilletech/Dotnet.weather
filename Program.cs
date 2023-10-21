@@ -1,16 +1,16 @@
 using System;
 using System.IO;
-using Newtonsoft.Json; // You need to install the Newtonsoft.Json NuGet package.
+using Newtonsoft.Json;
 
 class Program
 {
     static void Main()
     {
-        string jsonFile = "weatherData.json";
-        if (File.Exists(jsonFile))
+        string jsonFilePath = "weather.json";
+        if (File.Exists(jsonFilePath))
         {
-            string json = File.ReadAllText(jsonFile);
-            WeatherData data = JsonConvert.DeserializeObject<WeatherData>(json);
+            string json = File.ReadAllText(jsonFilePath);
+            WeatherData data = JsonConvert.DeserializeObject<WeatherData>(json); // Fixed this line
 
             Console.WriteLine($"Weather in {data.city}, {data.country}:");
             Console.WriteLine($"Current Temperature: {data.temperature.current} °C");
