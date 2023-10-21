@@ -1,0 +1,10 @@
+{
+    "city": "New York",
+    "country": "US",
+    "temperature": {
+        "current": 22.5,
+        "min": 18.0,
+        "max": 26.0
+    },
+    "description": "Partly cloudy"
+}
