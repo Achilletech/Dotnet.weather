@@ -1,0 +1,4 @@
+C:\Users\achil\Dotnet.weather\obj\Debug\net6.0\WeatherApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\achil\Dotnet.weather\obj\Debug\net6.0\WeatherApp.AssemblyInfoInputs.cache
+C:\Users\achil\Dotnet.weather\obj\Debug\net6.0\WeatherApp.AssemblyInfo.cs
+C:\Users\achil\Dotnet.weather\obj\Debug\net6.0\WeatherApp.csproj.CoreCompileInputs.cache
